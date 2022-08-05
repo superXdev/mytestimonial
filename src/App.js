@@ -1,25 +1,15 @@
-import logo from './logo.svg';
-import './App.css';
+import About from './About'
+import Testimony from './Testimony'
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+export default function App() {
+
+   return (
+      <div className="flex flex-col px-5 py-3 md:px-32 md:py-10">
+         {/* About you */}
+         <About />
+
+         {/* Testimony section */}
+         <Testimony />
+      </div>
+   )
 }
-
-export default App;
