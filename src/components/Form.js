@@ -48,7 +48,7 @@ export default function Form(props) {
          return
       }
 
-      const result = await axios.post('http://localhost:5000/reviews', {
+      const result = await axios.post(process.env.REACT_APP_ENDPOINT_URL + '/reviews', {
          photo: (photo.length > 0) ? photo[0].serverId : null,
          ...reviews
       })
@@ -128,7 +128,7 @@ export default function Form(props) {
          <FilePond
              files={photo}
              onupdatefiles={setPhoto}
-             server="http://localhost:5000/upload"
+             server={process.env.REACT_APP_ENDPOINT_URL + '/upload'}
              name="photo"
          />
       </div>

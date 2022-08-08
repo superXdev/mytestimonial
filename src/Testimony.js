@@ -19,7 +19,7 @@ export default function Testimony() {
    // fetch testimony data from API
    const fetchTestimony = async () => {
       setLoading(true)
-      const data = await axios.get(`http://localhost:5000/reviews?page=${page}&size=6`)
+      const data = await axios.get(`${process.env.REACT_APP_ENDPOINT_URL}/reviews?page=${page}&size=6`)
 
       if(data.data.status === 'OK') {
          setTestimonies(data.data.data)
