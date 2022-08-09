@@ -5,23 +5,24 @@
 A simple website to present testimonials from certain clients or people as a proof or opinions about you, this will increase credibility.
 
 ## Setup
-1. First you need to clone this repo for the backend https://github.com/superXdev/myTestimonial-backend
-2. Setting up the backend according to the instructions provided.
-3. Clone this repository
+### 1. First you need to clone this repo for the backend 
+https://github.com/superXdev/myTestimonial-backend
+### 2. Setting up the backend according to the instructions provided.
+### 3. Clone this repository
 ```sh
 git clone https://github.com/superXdev/mytestimonial.git
 ```
-4. Install dependencies
+### 4. Install dependencies
 ```sh
 npm install
 # or yarn
 yarn
 ```
-5. Copy & edit .env file
+### 5. Copy & edit .env file
 ```sh
 cp .env.example .env
 ```
-6. Run development server
+### 6. Run development server
 ```sh
 npm start
 ```
