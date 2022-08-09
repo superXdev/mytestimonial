@@ -1,3 +1,5 @@
+![App screenshoot](https://github.com/superXdev/mytestimonial/blob/main/public/ss.png?raw=true)
+
 # myTestimonial
 
 A simple website to present testimonials from certain clients or people as a proof or opinions about you, this will increase credibility.
